@@ -249,7 +249,7 @@
 
 
   var id = 0;
-
+  var AmCharts = AmCharts || {};
   AmCharts.React = createReactClass({
     getInitialState: function () {
       return {
