@@ -1,14 +1,14 @@
 How to install
 ==============
 
-1. Create a `package.json` which includes `react`, `react-dom`, and `@amcharts/amcharts3-react`:
+1. Create a `package.json` which includes `react`, `react-dom`, and `@amcharts/amcharts3-react` (make sure to point to the fork):
 
    ```json
    {
      "devDependencies": {
        "react": "^16.0.0",
        "react-dom": "^16.0.0",
-       "@amcharts/amcharts3-react": "^3.0.0"
+       "@amcharts/amcharts3-react": "szamanr/amcharts3-react#v3.1.1"
      }
    }
    ```
